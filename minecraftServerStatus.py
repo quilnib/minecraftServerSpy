@@ -16,7 +16,7 @@ RST = 24
 redPin = 22
 
 # Config file
-confFile = '/home/pi/Documents/minecraftServer.conf'
+confFile = '/home/pi/Documents/minecraftServerSpy/minecraftServer.conf'
 
 # 128x64 display with hardware I2C:
 disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST)
