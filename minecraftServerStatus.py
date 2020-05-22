@@ -68,8 +68,8 @@ def main():
                     redLed.off()
                     #print("didn't find any players")
             except Exception as e:
-                redLed.blink(1,1,0,0,15,True)
-                scrollText(e)
+                redLed.blink(0.5,0.5,0,0,15,True)
+                scrollText("Something went wrong")
         if numOnline > 0:
             scrollText(listToString(players))
         else:
